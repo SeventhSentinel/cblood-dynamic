@@ -149,6 +149,17 @@ class CBloodFlembomination : CBloodChexBlood abstract {}
 
 //===========================================================================
 //
+// Heretic monsters
+// (Submitted by Tesculpture, modified by SeventhSentinel)
+//
+//===========================================================================
+
+class CBloodKnight : CBloodLostSoul abstract {}
+class CBloodKnightGhost : CBloodLostSoul abstract {}
+class CBloodWizard : CBloodLostSoul abstract {}
+
+//===========================================================================
+//
 // Hexen monsters
 // (Submitted by Lippeth, modified by SeventhSentinel)
 //
@@ -162,16 +173,8 @@ class CBloodHeresiarch : Actor abstract
 	}
 }
 
-class CBloodKorax : Actor abstract
-{
-	Default
-	{
-		BloodColor "00 64 00";
-	}
-}
-
+class CBloodKorax : CBloodBaronOfHell abstract {}
 class CBloodMagePlayer : CBloodKorax abstract {}
-
 class CBloodFireDemon : CBloodLostSoul abstract {}
 class CBloodBishop : CBloodLostSoul abstract {}
 class CBloodBishopBlur : CBloodLostSoul abstract {}
