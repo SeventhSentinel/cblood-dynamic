@@ -1,5 +1,5 @@
 # CBlood-Dynamic
-A mod for UZDoom that corrects monster blood colors
+A mod for [UZDoom](https://github.com/UZDoom/UZDoom) that corrects monster blood colors
 
 A fork of the excellent [CBlood](https://github.com/nashmuhandes/cblood) by Nash Muhandes
 
