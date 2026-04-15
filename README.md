@@ -12,7 +12,7 @@ License: MIT
 
 ## Supported Mapsets
 - Ancient Aliens
-- Back to Saturn X
+- Back to Saturn X (all episodes)
 - Baculus
 - DBP61
 - Disjunction
