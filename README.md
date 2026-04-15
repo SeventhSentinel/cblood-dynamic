@@ -10,6 +10,7 @@ License: MIT
 ## Supported Games
 - Doom, Doom II, Final Doom
 - Chex Quest
+- Heretic
 - Hexen
 
 ## Supported Mapsets
