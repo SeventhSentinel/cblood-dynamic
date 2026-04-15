@@ -5,6 +5,8 @@ A fork of the excellent [CBlood](https://github.com/nashmuhandes/cblood) by Nash
 
 License: MIT
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f6046e9c-0611-4ea1-bcce-18f7218f572e" />
+
 ## Supported Games
 - Doom, Doom II, Final Doom
 - Chex Quest
@@ -37,5 +39,6 @@ License: MIT
 
 ### Do you like CBlood-Dynamic?
 - Feel free to submit contributions!
+- Try my status bar mod, [SevHUD](https://github.com/SeventhSentinel/sevhud)!
 - CBlood-Dynamic is based on work by Nash Muhandes. Consider supporting him on [Patreon](https://www.patreon.com/NashMuhandes), or check out his game, [Disdain](https://store.steampowered.com/app/2113270/DISDAIN/).
 - Check out my game, [Snap the Sentinel](https://store.steampowered.com/app/1739960/Snap_the_Sentinel/)!
