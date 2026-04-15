@@ -1,0 +1,152 @@
+// CBlood Mapset Extension
+// Written by SeventhSentinel
+// License: MIT
+
+extend class CBloodHandler
+{
+	string GetMapSet(void)
+	{
+		string mapset = "";
+		
+		// Grab a map checksum to figure out what mapset we're in
+		// In UZDoom, you can get the checksum by running `mapchecksum` in the console
+		// Make sure it's lowercase! You can do this easily at https://convertcase.net
+
+		string checksum;
+
+		// Doom 1 mapsets
+/*		if (LevelInfo.MapExists("E1M1"))
+		{
+			checksum = LevelInfo.MapChecksum("E1M1");
+
+			// Wow, what a great place for some Doom 1 mapsets!
+			// Such as this example:
+			
+			// ConCERNed
+			if (checksum == "1c393bb6a7b07bbdfa633b921922fad5")
+			{
+				mapset = "ConCERNed";
+			}
+		}*/
+		
+/*		if (LevelInfo.MapExists("E2M1"))
+		{
+			checksum = LevelInfo.MapChecksum("E2M1");
+
+			// Aliens TC
+			// TODO: check if Aliens TC should actually get special blood colors
+			if ((checksum == "1c95f245b71e5daf4824d4c715abcf7c") ||	// First version
+			(checksum == "ec2fb7f588a298d232923aa3b986ffd2") ||		// Second version
+			// Some version of it I found on Reddit that claims to make it work better in GZDoom
+			// I don't think it does, but I already got the checksum, so here ya go
+			(checksum == "f27e523702be6c2d14b2e83983af218a"))
+				mapset = "AliensTC";
+		}*/
+		
+		if (LevelInfo.MapExists("MAP01"))
+		{
+			checksum = LevelInfo.MapChecksum("MAP01");
+			// Ancient Aliens
+			if (checksum == "acac693dd139d067a57b17620e624c31")
+			{
+				mapset = "AAliens";
+			}
+
+			// Back to Saturn X
+			if ((checksum == "ff9c6545037c5e5e27ce0dacd24cdd37") ||	// Ep. 1
+			(checksum == "067cf96073db3cc4a8d887ee240f88da") ||		// Ep. 2
+			(checksum == "04bb060c99d6592866dc95a514c2333f"))		// Ep. 3 Preview
+			{
+				mapset = "BTSX";
+			}
+			
+			// Baculus
+			if (checksum == "1eb5cc8205787c1f95f2a8ea2fac22f5")
+			{
+				mapset = "Baculus";
+			}
+			
+			// DBP61
+			if (checksum == "75e5fb28621bef945c9ea074381a0086")
+			{
+				mapset = "DBP61";
+			}
+			
+			// Disjunction
+			if (checksum == "610ec018eb28d83d95c01f436a1cf1a7")
+			{
+				mapset = "Disjunction";
+			}
+			
+			// Eviternity
+			if ((checksum == "9831c412420f16fa0de000fd1dbfe901") ||	// I
+			(checksum == "8eb38d5289c47bb68d64f2832efa096d"))		// II
+			{
+				mapset = "eviternity";
+			}
+			
+			// Exomoon
+			if (checksum == "b07c4219ff188b36fa8c8af3676363c3")
+			{
+				mapset = "Exomoon";
+			}
+
+			// Fractured Worlds
+			if (checksum == "580d2e3bc63501cabeea71cefb8d96c8")
+			{
+				mapset = "FW";
+			}
+			
+			// Infection
+			if (checksum == "dc5cecfe9bbca65b3d09ca6537eb2ade")
+			{
+				mapset = "Infection";
+			}
+			
+			// Necromantic Thirst
+			if (checksum == "ee8ec91a8fb68b5d2614e46cfd925222")
+			{
+				mapset = "NT";
+			}
+			
+			// Rowdy Rudy's Revenge
+			if (checksum == "7fc20a2a61cd839a6d57a99ce5dce145")
+			{
+				mapset = "Rudy1";
+			}
+			
+			// Rowdy Rudy II
+			if (checksum == "88f4ef69b728de1e6e9bcfb3b02400a6")
+			{
+				mapset = "Rudy2";
+			}
+			
+			// Scientist 2023
+			if (checksum == "ac1595a4ae4a557a3400602d6bf473bb")
+			{
+				mapset = "Scientist2023";
+			}
+			
+			// Struggle
+			if (checksum == "b78c03218f48def73e52ed0df29094e2")
+			{
+				mapset = "Struggle";
+			}
+			
+			// Sunder
+			if (checksum == "3c8309ead9332e47e3241abcd11467fd")
+			{
+				mapset = "Sunder";
+			}
+			
+			// Tangerine Nightmare
+			if (checksum == "3aeeee157dc8a2f15f5519bc1a6da9fc")
+			{
+				mapset = "TangerineNightmare";
+			}
+		}
+		
+		// Mapset is now known
+		return mapset;
+	}
+}
