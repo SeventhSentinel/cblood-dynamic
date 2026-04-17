@@ -107,6 +107,16 @@ class CBloodLostSoul : Actor abstract
 	}
 }
 
+// The Sentinel's Lexicon support
+class CBloodLexicon_DTCT_BaronOfHell : CBloodBaronOfHell abstract {}
+class CBloodLexicon_DTHL_LostSoul : CBloodLostSoul abstract {}
+class CBloodLexicon_EPC1_LostSoul : CBloodLostSoul abstract {}
+class CBloodLexicon_EPC2_LostSoul : CBloodLostSoul abstract {}
+class CBloodLexicon_EQNX_Cacodemon : CBloodCacodemon abstract {}
+class CBloodLexicon_EQNX_BaronOfHell : CBloodBaronOfHell abstract {}
+class CBloodLexicon_EQNX_HellKnight : CBloodBaronOfHell abstract {}
+class CBloodLexicon_ROTR_LostSoul : CBloodLostSoul abstract {}
+
 //===========================================================================
 //
 // Chex Quest monsters
@@ -511,6 +521,7 @@ class CBloodCacodemonNT : CBloodBaronOfHell abstract {}
 class CBloodPainElementalNT : CBloodBaronOfHell abstract {}
 class CBloodDeadLostSoulNT : CBloodBaronOfHell abstract {}
 class CBloodLostSoulNT : CBloodLostSoul abstract {}
+class CBloodCyberdemonNT : CBloodBaronOfHell abstract {}
 
 //===========================================================================
 //
@@ -584,6 +595,26 @@ class CBloodPainElementalRudy2 : Actor abstract //Flame Caco
 class CBloodBaronOfHellScientist2023 : CBloodBaronOfHell abstract {}
 class CBloodHellKnightScientist2023 : CBloodBaronOfHell abstract {}
 class CBloodLostSoulScientist2023 : CBloodLostSoul abstract {}
+
+//===========================================================================
+//
+// Stardate 20X6 monsters
+// (Submitted by SeventhSentinel)
+//
+//===========================================================================
+
+class CBloodBaronOfHellSD20X6 : Actor abstract
+{
+	Default
+	{
+		BloodColor "88 00 88";
+	}
+}
+class CBloodHellKnightSD20X6 : CBloodBaronOfHellSD20X6 abstract {}
+
+// The Sentinel's Lexicon support
+class CBloodLexicon_SDX6_BaronOfHell : CBloodBaronOfHellSD20X6 abstract {}
+class CBloodLexicon_SDX6_HellKnight : CBloodBaronOfHellSD20X6 abstract {}
 
 //===========================================================================
 //
