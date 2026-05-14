@@ -40,6 +40,6 @@ License: MIT
 
 ### Do you like CBlood-Dynamic?
 - Feel free to submit contributions!
-- Try my status bar mod, [SevHUD](https://github.com/SeventhSentinel/sevhud)!
+- Try my other mods, like my [status bar](https://github.com/SeventhSentinel/sevhud) or my [skyboxes](https://github.com/SeventhSentinel/sevbox)!
 - CBlood-Dynamic is based on work by Nash Muhandes. Consider supporting him on [Patreon](https://www.patreon.com/NashMuhandes), or check out his game, [Disdain](https://store.steampowered.com/app/2113270/DISDAIN/).
 - Check out my game, [Snap the Sentinel](https://store.steampowered.com/app/1739960/Snap_the_Sentinel/)!
